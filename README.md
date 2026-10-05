@@ -1,5 +1,7 @@
 # StudyMate: AI Study Assistant
 
+![StudyMate screenshot](screenshots/studymate.png)
+
 An AI-powered study assistant that helps students summarize notes, understand concepts, and generate practice questions from their study material (including PDFs).
 
 ## Features
