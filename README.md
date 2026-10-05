@@ -15,7 +15,7 @@ An AI-powered study assistant that helps students summarize notes, understand co
 ## Tech Stack
 
 - **Frontend:** React + Vite
-- **Backend:** Python
+- **Backend:** Python (FastAPI + Uvicorn)
 - **AI:** Groq API (`openai/gpt-oss-120b`)
 
 ## Getting Started
@@ -38,7 +38,7 @@ Open `.env` and add your own Groq API key (get one at https://console.groq.com),
 
 ```bash
 pip install -r requirements.txt
-python main.py
+uvicorn main:app --reload --port 8000
 ```
 
 ### 3. Set up the frontend
