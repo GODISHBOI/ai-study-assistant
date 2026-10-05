@@ -13,7 +13,7 @@ An AI-powered study assistant that helps students summarize notes, understand co
 ## Tech Stack
 
 - **Frontend:** React + Vite
-- **Backend:** Node.js (Express) / Python
+- **Backend:** Python
 - **AI:** Groq API (`openai/gpt-oss-120b`)
 
 ## Getting Started
@@ -32,15 +32,8 @@ cd backend
 cp .env.example .env
 ```
 
-Open `.env` and add your own Groq API key (get one at https://console.groq.com).
+Open `.env` and add your own Groq API key (get one at https://console.groq.com), then run:
 
-**If using Node:**
-```bash
-npm install
-node server.js
-```
-
-**If using Python:**
 ```bash
 pip install -r requirements.txt
 python main.py
