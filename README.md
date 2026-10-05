@@ -2,6 +2,8 @@
 
 ![StudyMate screenshot](screenshots/studymate.png)
 
+**Live demo:** https://ai-study-assistant-one-zeta.vercel.app
+
 An AI-powered study assistant that helps students summarize notes, understand concepts, and generate practice questions from their study material (including PDFs).
 
 ## Features
