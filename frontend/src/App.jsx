@@ -147,9 +147,10 @@ Avoid unnecessary repetition.
         body: formData,
       });
 
-      if (!response.ok) {
-        throw new Error(`Server error: ${response.status}`);
-      }
+          if (!response.ok) {
+      const err = await response.json().catch(() => ({}));
+      throw new Error(err.detail || `Server error: ${response.status}`);
+    }
 
       const data = await response.json();
 
